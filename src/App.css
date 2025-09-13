@@ -1,0 +1,22 @@
+/* App.css */
+.App {
+  display: flex;
+  height: 100vh;
+  background-color: #000;
+}
+
+.sider {
+  width: 350px;
+  background-color: #222;
+  color: white;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.content {
+  flex: 1;
+  padding: 20px 20px 0 20px; /* بالای 0 */
+  overflow-y: auto;
+  color: white;
+}

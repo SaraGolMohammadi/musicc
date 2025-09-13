@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+body {
+    background-color: rgb(19, 17, 17);
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+  }
+
+.sider {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+    border: 1px solid black;
+    height: 80vh;
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-top: 20px; 
+    background-color: rgb(49, 48, 48);
+    padding: 20px;
+  }
+ 
+  h1 {
+    color: rgba(255, 115, 0, 0.863);
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    /* padding: 10px; */
+    width: 90%;
+    margin-right: 80px;
+    font-size: 20px;
+  }
+  
+  .sider-ul {
+    /* margin-top: 50px; */
+    width: 100%;
+  }
+  
+  .sider-ul ul {
+    list-style: none;
+    padding-left: 20px;
+    margin: 0;
+    color:#fff;
+  }
+  
+  .sider-ul ul li {
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  
+  .link a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 15px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  .link a:hover {
+    background-color: #9c9a9a;
+    cursor: pointer;
+    width: 170px;
+    /* position: fixed; */
+  }
+  

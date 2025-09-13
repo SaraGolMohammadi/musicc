@@ -1,0 +1,116 @@
+.home-container {
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.container-div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 900px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  /* gap: 120px; */
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  /* width: 100%; */
+}
+
+.search-input {
+  flex: 1;
+  min-width: 500px;
+  max-width: 550px;
+  padding: 15px 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: #555050;
+  color: #fff;
+  font-size: 16px;
+}
+
+.search-input::placeholder {
+  color: #ccc;
+}
+
+.search-icon {
+  cursor: pointer;
+  color: white;
+  font-size: 28px;
+  margin-right: 50px;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: auto;
+  min-width: 250px;
+  flex-wrap: wrap;
+  
+}
+
+.profile-name {
+  margin: 0;
+  font-weight: bold;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.premium-badge {
+  font-weight: normal;
+  color: orange;
+  background-color: #333;
+  padding: 2px 6px;
+  border-radius: 12px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.icons-wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  background-color: #555050;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.icon:hover {
+  background-color: #777;
+}
+
+
+/* ریسپانسیو برای موبایل */
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .search-bar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+  .profile-section {
+    margin-left: 0;
+    justify-content: flex-start;
+    gap: 15px;
+  }
+  .search-input {
+    max-width: 100%;
+  }
+}

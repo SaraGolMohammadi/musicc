@@ -1,0 +1,36 @@
+.swiper-button-next, .swiper-button-prev {
+    color: white; /* رنگ فلش */
+    background-color: rgba(0,0,0,0.5); /* پس‌زمینه دایره‌ای نیمه شفاف */
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    z-index: 20;
+  }
+  
+  .swiper-button-next:hover, .swiper-button-prev:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* تغییر مکان فلش‌ها */
+  .swiper-button-prev {
+    left: 10px;
+  }
+  
+  .swiper-button-next {
+    right: 10px;
+  }
+  
+  /* سایز آیکون فلش */
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
