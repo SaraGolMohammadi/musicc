@@ -22,4 +22,4 @@
 دیپلوی شده روی Vercel
 
 
-![پیش‌نمایش وبسایت](images/CChb1B2h.jpg)
+![پیش‌نمایش وبسایت](public/img/majid-razavi-8211-mesle-to_450.webp)
